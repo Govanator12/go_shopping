@@ -61,7 +61,7 @@ while True:
     ans = input()
 
     if ans == '1':
-        my_cart.addToCart(var)
+        my_cart.addToCart()
 
     elif ans == '2':
         my_cart.removeFromCart()
@@ -81,4 +81,3 @@ while True:
     # base case
 
     # ask if they would like to add, remove, show, perform steps using cart methods
-    

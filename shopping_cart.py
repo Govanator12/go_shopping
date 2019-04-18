@@ -91,7 +91,7 @@ def goShopping():
             selectCart(carts, current_cart)
 
         elif ans == '6':
-                deleteCart(carts, current_cart)
+            deleteCart(carts, current_cart)
 
         elif ans == '7':
             break
